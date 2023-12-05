@@ -32,7 +32,8 @@
     <div class="col-md-6">
       <label for="placa" class="form-label">Placa</label>
       <input type="text" class="form-control" id="placa" placeholder="XYZ0000" pattern="[A-Z]{3}\d{4}" required>
-      <div id="feedbackPlaca" class="invalid-feedback">Informe o placa corretamente.</div>
+      <div id="feedbackPlaca" class="invalid-feedback">Informe o placa corretamente.
+      </div>
     </div>
     <div class="col-md-6">
       <label for="marca" class="form-label">Marca</label>
@@ -44,18 +45,23 @@
         <option value="volkswagen">VOLKSWAGEN</option>
       </select>
       <div class="invalid-feedback">Informe a marca corretamente.</div>
-      <div class="col-md-6">
-        <label for="cor" class="form-label">Cor</label>
-        <input type="text" class="form-control" id="cor" required>
-        <div class="invalid-feedback">Informe a cor corretamente.</div>
-        <div class="col-md-6">
-          <label for="ano" class="form-label">Ano</label>
-          <input type="text" class="form-control" id="ano" placeholder="1999" pattern="\d{4}" required>
-          <div id="feedbackPlaca" class="invalid-feedback">Informe o placa corretamente.</div>
-        </div>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-          <input type="submit" class="btn btn-primary me-md-2" value="Inserir" id="btnInserir">
-        </div>
+    </div>
+    <div class="col-md-6">
+      <label for="cor" class="form-label">Cor</label>
+      <input type="text" class="form-control" id="cor" required>
+      <div class="invalid-feedback">Informe a cor corretamente.</div>
+    </div>
+    <div class="col-md-6">
+      <label for="ano" class="form-label">Ano</label>
+      <input type="text" class="form-control" id="ano" placeholder="1999" pattern="\d{4}" required>
+      <div id="feedbackPlaca" class="invalid-feedback">Informe o placa corretamente.</div>
+    </div>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+      <input type="submit" class="btn btn-primary me-md-2" value="Inserir" id="btnInserir">
+    </div>
+    </div>
+
+
   </form>
 
   <hr>
